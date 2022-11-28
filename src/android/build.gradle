@@ -11,4 +11,5 @@ buildscript {
 }
 
 //apply plugin: com.google.firebase.performance.buildtools.gradle.PerformancePlugin
-apply plugin: 'com.google.firebase.firebase-perf'
+//apply plugin: 'com.google.firebase.firebase-perf'
+implementation 'com.google.firebase:firebase-perf:19.0.9'
