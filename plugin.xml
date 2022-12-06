@@ -36,6 +36,10 @@
 
     <framework src="com.google.firebase:firebase-perf:20.0.+" />
     <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+    
+    //testing
+    <dependency id="com.google.firebase.firebase-perf"/>
+    
   </platform>
   
   <platform name="ios">
