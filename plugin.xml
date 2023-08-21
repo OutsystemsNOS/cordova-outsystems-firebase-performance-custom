@@ -9,8 +9,7 @@
     <clobbers target="cordova.plugins.OSFirebasePerformance"/>
   </js-module>
 
-  <!--<dependency id="cordova-outsystems-firebase-core" url="https://github.com/OutSystems/cordova-outsystems-firebase-core.git#1.0.1"/>-->
-  <dependency id="cordova-outsystems-firebase-core" url="https://github.com/OutSystems/cordova-outsystems-firebase-core.git#2.0.0"/>
+  <dependency id="cordova-outsystems-firebase-core" url="https://github.com/OutSystems/cordova-outsystems-firebase-core.git#1.0.1"/>
 
   <preference name="PERFORMANCE_MONITORING_ENABLED" default="true" />
   
@@ -42,8 +41,7 @@
   
   <platform name="ios">
 
-    <!--<preference name="IOS_FIREBASE_PERFORMANCE_VERSION" default="~> 8.6.0"/>-->
-    <preference name="IOS_FIREBASE_PERFORMANCE_VERSION" default="~> 8.13.0"/>
+    <preference name="IOS_FIREBASE_PERFORMANCE_VERSION" default="~> 8.6.0"/>
     
     <config-file parent="/*" target="config.xml">
       <feature name="OSFirebasePerformance">
