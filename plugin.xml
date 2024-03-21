@@ -70,7 +70,7 @@
         <config>
             <source url="https://cdn.cocoapods.org/" />
         </config>
-        <pods>
+        <pods use-frameworks="true">
             <pod name="Firebase/Performance" spec="$IOS_FIREBASE_PERFORMANCE_VERSION" />
         </pods>
     </podspec>
