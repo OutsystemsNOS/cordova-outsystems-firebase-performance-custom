@@ -50,7 +50,7 @@
   <platform name="ios">
 
     <!--<preference name="IOS_FIREBASE_PERFORMANCE_VERSION" default="~> 10.17.0"/>-->
-    <preference name="IOS_FIREBASE_PERFORMANCE_VERSION" default="~> 10.29.0"/>
+    <preference name="IOS_FIREBASE_PERFORMANCE_VERSION" default="~> 10.28.0"/>
     
     <config-file parent="/*" target="config.xml">
       <feature name="OSFirebasePerformance">
@@ -63,8 +63,7 @@
             <string>$PERFORMANCE_MONITORING_ENABLED</string>
      </config-file>
 
-     <dependency id="cordova-plugin-add-swift-support" url="https://github.com/OutSystems/cordova-plugin-add-swift-support.git#2.0.3-OS1"/>
-
+    <dependency id="cordova-plugin-add-swift-support" url="https://github.com/OutSystems/cordova-plugin-add-swift-support.git#2.0.3-OS1"/>
     <source-file src="src/ios/OSFirebasePerformance.swift"/>
     <source-file src="src/ios/FirebasePerformancePlugin.swift"/>
 
