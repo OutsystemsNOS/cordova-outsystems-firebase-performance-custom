@@ -6,7 +6,9 @@
 //
 
 import Foundation
-import Firebase
+// mlrosa- with the 10.25.0 version we need to change the library
+//import Firebase
+import FirebasePerformance
 
 class FirebasePerformancePlugin {
     var traces: [String: Trace] = [:]
